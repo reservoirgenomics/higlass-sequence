@@ -4,6 +4,9 @@
   "description": "Resgen flavored sequence tracks for HiGlass",
   "private": false,
   "author": "Alexander Veit",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "MIT",
   "contributors": [
     {
