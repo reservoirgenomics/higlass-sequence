@@ -225,8 +225,6 @@ const SequenceTrack = (HGC, ...args) => {
         this.tilesetInfo.tile_size,
       );
 
-      console.log('tile', tile, 'tileX:', tileX, tileWidth);
-
       this.drawColoredRectangles(tileX, tileWidth, tile);
       this.drawTextSequence(tileX, tileWidth, tile);
     }
@@ -257,8 +255,6 @@ const SequenceTrack = (HGC, ...args) => {
         this.dataFetchingMode === 'fasta'
           ? (tile.matrix = tile.tileData.dense)
           : this.simpleUnFlatten(tile, tile.tileData.dense);
-
-      console.log('tile', tile)
     }
 
     /**
@@ -430,7 +426,6 @@ const SequenceTrack = (HGC, ...args) => {
 
         matrixWithColors.push(columnColors);
       }
-      console.log('matrixWithColors', matrixWithColors);
       tile.colorAndLetterData = matrixWithColors;
       return;
     }
@@ -540,7 +535,6 @@ const SequenceTrack = (HGC, ...args) => {
       );
       const sprite = new HGC.libraries.PIXI.Sprite(texture);
       sprite.width = this._xScale(tileX + tileWidth) - this._xScale(tileX);
-      console.log('sprint.width', sprite.width);
       sprite.height = trackHeight;
       sprite.x = this._xScale(tileX + 1);
       sprite.y = 0;
@@ -564,7 +558,7 @@ const SequenceTrack = (HGC, ...args) => {
         // For fasta files maxZoom is equal to the hightest zoom level
         // Therefore the notification is shown only two levels below highest zoom level
         // We leave it like that intentionally for now.
-        this.zoomLevel < this.maxZoom - 3 &&
+        this.zoomLevel < this.maxZoom - 5 &&
         this.options.colorAggregationMode === 'none'
       ) {
         this.showNotification();
