@@ -1,7 +1,7 @@
 {
-  "name": "higlass-sequence",
+  "name": "resglass-sequence",
   "version": "0.3.1",
-  "description": "Sequence tracks for HiGlass",
+  "description": "Resgen flavored sequence tracks for HiGlass",
   "private": false,
   "author": "Alexander Veit",
   "license": "MIT",
@@ -9,7 +9,11 @@
     {
       "name": "Alexander Veit",
       "url": "http://github.com/alexander-veit"
-    }
+    },
+    {
+      "name": "Reservoir Genomics",
+      "url": "http://github.com/pkerpedjiev"
+    },    
   ],
   "main": "./src/index.js",
   "unpkg": "./dist/higlass-sequence.js",
@@ -18,7 +22,7 @@
     "dist",
     "es"
   ],
-  "repository": "github:higlass/higlass-sequence",
+  "repository": "github:reservoirgenomics/resglass-sequence",
   "devDependencies": {
     "autoprefixer": "^8.6.5",
     "babel-core": "^6.26.3",
