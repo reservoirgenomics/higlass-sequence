@@ -13,7 +13,7 @@
     {
       "name": "Reservoir Genomics",
       "url": "http://github.com/pkerpedjiev"
-    },    
+    }
   ],
   "main": "./src/index.js",
   "unpkg": "./dist/higlass-sequence.js",
