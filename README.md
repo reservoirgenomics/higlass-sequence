@@ -22,7 +22,7 @@ npm install higlass-sequence
 
 The live script can be found at:
 
-- https://unpkg.com/higlass-sequence/dist/higlass-sequence.js
+- https://unpkg.com/@reservoirgenomics/resglass-sequence@0.3.2/dist/higlass-sequence.js
 
 ### Client
 
