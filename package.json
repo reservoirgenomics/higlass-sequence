@@ -1,5 +1,5 @@
 {
-  "name": "resglass-sequence",
+  "name": "@reservoirgenomics/resglass-sequence",
   "version": "0.3.2",
   "description": "Resgen flavored sequence tracks for HiGlass",
   "private": false,
