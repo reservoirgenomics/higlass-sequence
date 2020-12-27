@@ -1,6 +1,6 @@
 {
   "name": "resglass-sequence",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Resgen flavored sequence tracks for HiGlass",
   "private": false,
   "author": "Alexander Veit",
